@@ -1,0 +1,4 @@
+
+function MISE_PI(k_p, k_i)
+    sys_ob = tf(1, [a, b, c])
+    sys_reg = pid(K_p,K_i)
